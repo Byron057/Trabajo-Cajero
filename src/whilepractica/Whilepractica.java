@@ -39,15 +39,15 @@ public class Whilepractica {
                 System.out.println("BIENVENIDO AL CAJERO");
                 System.out.println("selecciona una opción: ");
                 do {
-                    System.out.println("1. consultar saldo");
-                    System.out.println("2. retirar dinero");
-                    System.out.println("3. depositar dinero");
-                    System.out.println("4. salir");
+                    System.out.println("1. Consultar saldo");
+                    System.out.println("2. Retirar dinero");
+                    System.out.println("3. Depositar dinero");
+                    System.out.println("4. Salir");
                     System.out.println("=========================");
                     System.out.println("Ingrese una Opcion");
                     opc= sc.nextInt();
                     switch(opc){
-                        case 1://OPCION CONSULTAR
+                        case 1://OPCION CONSULTAR SALDO
                             System.out.println("Consultar Saldo");
                             Consultar_saldo();
                             break;
@@ -63,7 +63,7 @@ public class Whilepractica {
                         default:
                             intentos_opc --;
                             System.out.println(intentos_opc);
-                            System.out.println("Ingrese Una OPcion Valida");
+                            System.out.println("Ingrese Una Opcion Valida");
                     }
                 } while (opc != 4 && intentos_opc >0);
                 break;
@@ -79,7 +79,8 @@ public class Whilepractica {
         }
         
     }
+    //entrando a consultar saldo
     public static void Consultar_saldo(){
-      System.out.println("El Saldo disponible es de: " +saldo);
+      System.out.println("El Saldo disponible de su tarjeta es de: " +saldo);//SALDO DISPONIBLE
 }
 }
