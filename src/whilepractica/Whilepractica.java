@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author diegoreinoso
  */
 public class Whilepractica {
-     static double saldo = 1300;
+    static double saldo = 1300;
     /**
      * @param args the command line arguments
      */
@@ -105,14 +105,17 @@ public class Whilepractica {
 
         } while (retiro <= 0 || retiro > saldo);
 
-    // si pasa validaciones se descuenta
-    saldo -= retiro;
+        // si pasa validaciones se descuenta
+        saldo -= retiro;
 
-    System.out.println("Retiro exitoso");
-    System.out.println("Valor retirado: $" + retiro);
-    System.out.println("Saldo restante: $" + saldo);
-}
+        System.out.println("Retiro exitoso");
+        System.out.println("Valor retirado: $" + retiro);
+        System.out.println("Saldo restante: $" + saldo);
     }
+    public static void depositar_dinero(){
+        System.out.println("Ingrese el Monto que Quiere Depositar");
+    }
+}
         
 
        
