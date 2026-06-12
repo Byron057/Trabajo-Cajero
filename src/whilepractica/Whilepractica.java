@@ -36,7 +36,7 @@ public class Whilepractica {
         while(intentos>0 && intentos <= 3){ 
             int clave_ingresada = sc.nextInt();
             if (clave_ingresada == clave) {
-                System.out.println("bienvenido al cajero");
+                System.out.println("BIENVENIDO AL CAJERO");
                 System.out.println("selecciona una opción: ");
                 do {
                     System.out.println("1. consultar saldo");
@@ -47,7 +47,7 @@ public class Whilepractica {
                     System.out.println("Ingrese una Opcion");
                     opc= sc.nextInt();
                     switch(opc){
-                        case 1:
+                        case 1://OPCION CONSULTAR
                             System.out.println("Consultar Saldo");
                             Consultar_saldo();
                             break;
@@ -80,6 +80,6 @@ public class Whilepractica {
         
     }
     public static void Consultar_saldo(){
-      System.out.println("Saldo disponible es de: " +saldo);
+      System.out.println("El Saldo disponible es de: " +saldo);
 }
 }
