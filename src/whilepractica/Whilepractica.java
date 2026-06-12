@@ -26,6 +26,7 @@ public class Whilepractica {
         int intentos =3;
         int opc;
         int intentos_opc = 3;
+        
         System.out.println("cajero automatico");
         System.out.println("-----------------");
         System.out.println("ingrese su tarjeta: ");
@@ -47,6 +48,7 @@ public class Whilepractica {
                     switch(opc){
                         case 1:
                             System.out.println("Consultar Saldo");
+                            Consultar_saldo();
                             break;
                         case 2: 
                             System.out.println("Retirar Dinero");
@@ -74,11 +76,10 @@ public class Whilepractica {
         if (intentos==0){
             System.out.println("Tarjeta Bloqueada");
         }
-        public static void Consultar_saldo(){
-        double saldo = 500;
-        System.out.println("Saldo disponible es de: "+saldo);
+        
     }
-    
-    
+    public static void Consultar_saldo(){
+        double saldo = 1300;
+        System.out.println("Saldo disponible es de: "+saldo);
 }
- 
+}
