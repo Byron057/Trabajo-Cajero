@@ -53,6 +53,7 @@ public class Whilepractica {
                             break;
                         case 2: 
                             System.out.println("Retirar Dinero");
+                            retirar_dinero();
                             break;
                         case 3: 
                             System.out.println("Depositar dinero");
