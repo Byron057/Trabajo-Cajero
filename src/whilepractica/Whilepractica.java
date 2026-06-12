@@ -56,7 +56,7 @@ public class Whilepractica {
                         case 3: //OPCION DEPOSITAR_DINERO
                             depositar_dinero();
                             break;
-                        case 4:
+                        case 4:  //sistema cerrado
                             System.out.println("Sistema Cerrado");
                             break;
                         default:
