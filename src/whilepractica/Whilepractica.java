@@ -85,18 +85,23 @@ public class Whilepractica {
 }
     //retirar dinero 
     public static void retirar_dinero(){
+        Scanner sc = new Scanner(System.in);
+            
         double retiro;
         do{
             System.out.println("ingrese el monto a retirar: ");
-            retiro = sc.nextInt();
+            retiro = sc.nextDouble();
             if (retiro <= 0){
-                System.out.println("monto invalido");
-                }else if (retiro> saldo){
-                    
-                }
+                
+            System.out.println("Monto invalido. Ingrese un valor mayor a 0");
+        }
+
+       
 
             
-            }
+                
+            
+            
         
         
     
@@ -107,4 +112,3 @@ public class Whilepractica {
 
     
 
-}
