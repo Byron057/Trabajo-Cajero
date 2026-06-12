@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author diegoreinoso
  */
 public class Whilepractica {
-
+     static double saldo = 1300;
     /**
      * @param args the command line arguments
      */
@@ -26,6 +26,7 @@ public class Whilepractica {
         int intentos =3;
         int opc;
         int intentos_opc = 3;
+         
         
         System.out.println("cajero automatico");
         System.out.println("-----------------");
@@ -79,7 +80,6 @@ public class Whilepractica {
         
     }
     public static void Consultar_saldo(){
-        double saldo = 1300;
-        System.out.println("Saldo disponible es de: "+saldo);
+      System.out.println("Saldo disponible es de: " +saldo);
 }
 }
