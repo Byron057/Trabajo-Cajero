@@ -83,4 +83,24 @@ public class Whilepractica {
     public static void Consultar_saldo(){
       System.out.println("El Saldo disponible de su tarjeta es de: " +saldo);//SALDO DISPONIBLE
 }
+    //retirar dinero 
+    public static void retirar_dinero(){
+        double retiro;
+        do{
+            System.out.println("ingrese el monto a retirar: ");
+            retiro = sc.nextInt();
+            if (retiro <= 0){
+
+            
+            }
+        
+        
+    
+        
+
+
+
+
+    
+
 }
