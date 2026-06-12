@@ -90,6 +90,10 @@ public class Whilepractica {
             System.out.println("ingrese el monto a retirar: ");
             retiro = sc.nextInt();
             if (retiro <= 0){
+                System.out.println("monto invalido");
+                }else if (retiro> saldo){
+                    
+                }
 
             
             }
