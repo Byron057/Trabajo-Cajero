@@ -112,8 +112,21 @@ public class Whilepractica {
         System.out.println("Valor retirado: $" + retiro);
         System.out.println("Saldo restante: $" + saldo);
     }
+    
     public static void depositar_dinero(){
         System.out.println("Ingrese el Monto que Quiere Depositar");
+        Scanner sc = new Scanner(System.in);
+        double deposito;
+        do{
+            System.out.println("ingrese el monto a retirar: ");
+            deposito = sc.nextDouble();
+            if (deposito <= 0){
+                
+            System.out.println("Monto invalido. Ingrese un valor mayor a 0");
+            
+             // validar saldo
+             }
+        } while (deposito <= 0);
     }
 }
         
