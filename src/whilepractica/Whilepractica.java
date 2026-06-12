@@ -84,9 +84,21 @@ public class Whilepractica {
 }
     //retirar dinero 
     public static void retirar_dinero(){
-        Scanner sc = new Scanner(System.in);
-            
+        Scanner sc = new Scanner(System.in);    
         double retiro;
+        
+        System.out.println("¿Desea confirmar el retiro?");
+        System.out.println("1. Sí");
+        System.out.println("2. No");
+        int confirmar = sc.nextInt();
+
+        if(confirmar == 1){
+            System.out.println("continuar con el retiro");
+        }else{
+            System.out.println("Operación cancelada.");
+        }
+
+        
         do{
             System.out.println("ingrese el monto a retirar: ");
             retiro = sc.nextDouble();
