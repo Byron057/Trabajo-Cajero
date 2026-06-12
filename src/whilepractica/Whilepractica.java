@@ -74,6 +74,9 @@ public class Whilepractica {
         if (intentos==0){
             System.out.println("Tarjeta Bloqueada");
         }
+        public static void Consultar_saldo(){
+        double saldo = 500;
+        System.out.println("Saldo disponible es de: "+saldo);
     }
     
     
