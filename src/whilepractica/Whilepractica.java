@@ -92,7 +92,7 @@ public class Whilepractica {
         System.out.println("2. No");
         int confirmar = sc.nextInt();
 
-        if(confirmar == 1){
+        if(confirmar == 1){   //confirmar retiro si o no 
             System.out.println("continuar con el retiro");
         }else{
             System.out.println("Operación cancelada.");
