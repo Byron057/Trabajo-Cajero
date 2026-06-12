@@ -48,15 +48,13 @@ public class Whilepractica {
                     opc= sc.nextInt();
                     switch(opc){
                         case 1://OPCION CONSULTAR SALDO
-                            System.out.println("Consultar Saldo");
                             Consultar_saldo();
                             break;
                         case 2: 
-                            System.out.println("Retirar Dinero");
                             retirar_dinero();
                             break;
                         case 3: 
-                            System.out.println("Depositar dinero");
+                            depositar_dinero();
                             break;
                         case 4:
                             System.out.println("Sistema Cerrado");
@@ -114,19 +112,20 @@ public class Whilepractica {
     }
     
     public static void depositar_dinero(){
-        System.out.println("Ingrese el Monto que Quiere Depositar");
         Scanner sc = new Scanner(System.in);
         double deposito;
         do{
-            System.out.println("ingrese el monto a retirar: ");
+            System.out.println("Ingrese el Monto que Quiere Depositar");
             deposito = sc.nextDouble();
             if (deposito <= 0){
                 
             System.out.println("Monto invalido. Ingrese un valor mayor a 0");
             
-             // validar saldo
              }
         } while (deposito <= 0);
+        saldo += deposito;
+        System.out.println("Monto Depositado Correctamente");
+        System.out.println("Saldo Disponible: " + saldo);
     }
 }
         
