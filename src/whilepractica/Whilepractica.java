@@ -94,6 +94,13 @@ public class Whilepractica {
             if (retiro <= 0){
                 
             System.out.println("Monto invalido. Ingrese un valor mayor a 0");
+             // validar saldo
+        else if (retiro > saldo) {
+            System.out.println("Saldo insuficiente");
+            System.out.println("Saldo disponible: $" + saldo);
+            System.out.println("Ingrese otro monto");
+        }
+
         }
 
        
