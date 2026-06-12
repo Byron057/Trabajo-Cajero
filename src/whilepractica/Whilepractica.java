@@ -50,10 +50,10 @@ public class Whilepractica {
                         case 1://OPCION CONSULTAR SALDO
                             Consultar_saldo();
                             break;
-                        case 2: 
+                        case 2: //OPCION RETIRAR_DINERO
                             retirar_dinero();
                             break;
-                        case 3: 
+                        case 3: //OPCION DEPOSITAR_DINERO
                             depositar_dinero();
                             break;
                         case 4:
